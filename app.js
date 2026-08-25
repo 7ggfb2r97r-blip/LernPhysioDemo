@@ -170,7 +170,7 @@ function renderHome() {
   mount(`
     <div class="eyebrow">LernPhysio</div>
     <h1 class="page-title">Dein persönlicher Lernassistent</h1>
-    <p class="subtitle">Basierend ausschließlich auf deinen eigenen Lernquellen (Anatomie, Herz-Kreislauf, Neuroanatomie u.v.m.) – strukturiert zum Lernen und Abfragen für deine Physiotherapie-Prüfung.</p>
+    <p class="subtitle">Lerne, quizze und verbessere dich jeden Tag. Verstehe komplexe Zusammenhänge, meistere Patientenfälle und bereite dich spielerisch auf deine Prüfung vor.</p>
     <div class="grid stats">
       <div class="card"><div class="stat-label">Fragen beantwortet</div><div class="stat-value">${os.answered}/${os.total}</div><div class="stat-note">${os.pct}% zuletzt richtig</div></div>
       <div class="card"><div class="stat-label">Lernthemen</div><div class="stat-value">${topics.length}</div><div class="stat-note">aus 10 Lernquellen</div></div>
